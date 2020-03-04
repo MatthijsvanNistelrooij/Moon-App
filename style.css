@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Roboto', sans-serif;;
+/* 
+    background:                                      #0F2027;
+    background:     -webkit-linear-gradient(to left, rgb(115, 171, 196), #203A43, #0F2027); 
+    background:             linear-gradient(to left, rgb(255, 255, 255), rgb(25, 172, 221), #0F2027);  
+ */
+}
+
+body {
+    background-image: url(images/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.both {
+    background-color: transparent;
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin: auto;
+    height: 600px;
+    width: 400px;
+}
+
+.weather-container {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+.weather {
+    font-size: 22px;
+    margin: 0;
+}
+
+.temp {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+}
+
+p::after {
+    content: " °C";
+}
+
+p::before {
+    content: "temp : ";
+}
+
+h1::before {
+    content: "";
+}
+
+#contain_moon{
+    width: 400px;
+    height: auto;
+    color:rgb(255, 255, 255);
+    font-family:Arial;
+  }
