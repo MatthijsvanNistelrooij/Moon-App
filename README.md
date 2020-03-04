@@ -1,4 +1,4 @@
 # Moon-App
-Moon API
+What Moon Is It Today
 
 https://matthijsvannistelrooij.github.io/Moon-App/
